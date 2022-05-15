@@ -10,6 +10,7 @@ export const PhotoItem = ({url, name}: Props) => {
         <C.Container>
             <img src={url} alt={name} />
             {name}
+            <input type="submit" value="X" />
         </C.Container>
     )
 }
